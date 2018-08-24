@@ -1,0 +1,28 @@
+package:
+    name: dtw
+    version: "{{ load_setup_py_data().version }}"
+
+source:
+    path: .
+
+build:
+    number: 1
+
+requirements:
+    build:
+        - numpy {{ numpy }}
+
+    run:
+        - numpy {{ numpy }}
+
+test:
+    requires:
+        - numpy {{ numpy }}
+
+    import:
+        - dtw
+
+about:
+    home: https://github.com/paul-freeman/dtw
+    license: MIT
+    license_file: LICENSE
