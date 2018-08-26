@@ -2,3 +2,10 @@ numpy:
   - 1.15.*
   - 1.14.*
   - 1.13.*
+
+target_platform:
+  - linux-64
+  - linux-32
+  - osx-64
+  - win-32
+  - win-64
