@@ -5,19 +5,16 @@ package:
 source:
     path: .
 
-build:
-    number: 1
-
 requirements:
     build:
-        - numpy {{ numpy }}
+        - numpy <1.15
 
     run:
-        - numpy {{ numpy }}
+        - numpy <1.15
 
 test:
     requires:
-        - numpy {{ numpy }}
+        - numpy <1.15
 
     import:
         - dtw
