@@ -4,7 +4,7 @@ import numpy
 
 setup(
     name='dtw',
-    version='1.0.2',
+    version='1.0.3',
     author='Paul Freeman',
     author_email='paul.freeman.cs@gmail.com',
     license='MIT License',
