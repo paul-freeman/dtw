@@ -1,2 +1,4 @@
 dtw.c
 build/
+dist/*
+dtw.egg-info/*
