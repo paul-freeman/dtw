@@ -10,6 +10,10 @@ outperforms a pure Python implementation (no surprise there) but is also
 significantly faster than using [the dtw package in
 R](http://dtw.r-forge.r-project.org/) when calling it from Python.
 
+This algorithm is hard-coded to use the `symmetric2` step pattern - the
+default step pattern used by the R algorithm. But feel free to fork and
+modify if you need another step pattern, the code is very short!
+
 ## Installation
 
 Being a compiled extension package, we are doing our best to provide compiled
